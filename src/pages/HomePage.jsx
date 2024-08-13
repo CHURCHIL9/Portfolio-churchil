@@ -147,6 +147,7 @@ const HomePage = () => {
                     "Worked remotely as a Junior Data Scientist and managed preprocessing and modeling of large datasets to ensure data integrity and accuracy for various analytical projects.",
                     "Built and deployed predictive models using machine learning techniques that were very instrumental to strategic decisions.",
                     "Currently working with a team of analysts to create Young Future data firm.",
+                    "We will be online soon"
                   ]}
                 />
 
