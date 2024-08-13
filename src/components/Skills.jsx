@@ -46,11 +46,11 @@ const Skills = () => {
             <li>PHONE</li>
           </ul>
           <ul className="space-y-3 col-span-2">
-            <li>John Oduya</li>
-            <li>April 2003</li>
+            <li>Churchil Omondi</li>
+            <li>March 1999</li>
             <li>Mombasa, Kenya</li>
-            <li>oduyajohn66@gmail.com</li>
-            <li>+254 742 642356</li>
+            <li>churchilradonji@gmail.com</li>
+            <li>+254 115053375</li>
           </ul>
         </div>
       </div>
@@ -68,11 +68,11 @@ const Skills = () => {
             language="Swahili"
             dotsFilled={9}
             totalDots={10}
-            proficiency="native"
+            proficiency="fluent"
           />
           <LanguageProficiency
-            language="Duruma"
-            dotsFilled={6}
+            language="Luo"
+            dotsFilled={9}
             totalDots={10}
             proficiency="native"
           />
@@ -82,10 +82,10 @@ const Skills = () => {
       <div className="">
         <h2 className="text-xl mb-4">Professional Skills</h2>
         <ul>
-          <SkillProgressBar skill="JavaScript" percentage={79} />
-          <SkillProgressBar skill="React-Native" percentage={40} />
-          <SkillProgressBar skill="Python" percentage={60} />
-          <SkillProgressBar skill="NodeJS" percentage={60} />
+          <SkillProgressBar skill="Python" percentage={85} />
+          <SkillProgressBar skill="R" percentage={90} />
+          <SkillProgressBar skill="Excel" percentage={80} />
+          <SkillProgressBar skill="MySql" percentage={75} />
         </ul>
       </div>
 
@@ -93,20 +93,16 @@ const Skills = () => {
         <h2 className="text-xl md:mt-0 mb-4">Other Professional Skills</h2>
         <ul className="grid grid-cols-2">
           <li className="flex flex-col justify-center items-center">
-            <CircleProgressBar progress={75} size={100} />
-            <h3>HTML</h3>
-          </li>
-          <li className="flex flex-col justify-center items-center">
-            <CircleProgressBar progress={80} size={100} />
-            <h3>CSS</h3>
-          </li>
-          <li className="flex flex-col justify-center items-center">
-            <CircleProgressBar progress={66} size={100} />
-            <h3>R</h3>
+            <CircleProgressBar progress={20} size={100} />
+            <h3>Javascript</h3>
           </li>
           <li className="flex flex-col justify-center items-center">
             <CircleProgressBar progress={30} size={100} />
             <h3>C</h3>
+          </li>
+          <li className="flex flex-col justify-center items-center">
+            <CircleProgressBar progress={80} size={100} />
+            <h3>Power Bi</h3>
           </li>
         </ul>
       </div>

@@ -96,21 +96,21 @@ const HomePage = () => {
               <div className="lg:bg-white lg:bg-opacity-60">
                 <div className="px-5 mt-4">
                   <h1 className="text-4xl font-bold mb-12 text-gray-800">
-                    HI, I'M JOHN.
+                    HI, I'M CHURCHIL
                   </h1>
                   <p className="text-xl text-gray-600 ">
-                    Hello There! I'm <b>John Oduya</b>. A{" "}
-                    <b>Mobile and Web Developer</b> with a passion for creating
-                    visually stunning, highly functional digital experiences
-                    across platforms, from responsive websites to intuitive
-                    mobile applications. My expertise spans frontend and backend
-                    web technologies like <b>HTML, CSS, JavaScript, React,</b>{" "}
-                    and <b>Node.js</b>, as well as mobile technologies like{" "}
-                    <b>Flutter</b> and <b>React-Native</b>, with <b>2+ years</b>{" "}
-                    experience in software Development. Whether building a
-                    dynamic website or a seamless mobile app, I’m dedicated to
-                    delivering high-quality, scalable solutions that exceed
-                    client expectations and delight users.
+                    Hello! I'm <b>Churchil Omondi</b>. A <b>data scientist</b>{" "}
+                    and <b>statistician</b> passionate about revealing insights
+                    and building data-driven solutions. Areas of competencies
+                    include <b>big data analytics</b>, programming languages,
+                    and software such as{" "}
+                    <b>Python, R, MySQL, Excel, Power BI</b> with over{" "}
+                    <b>2 years </b>
+                    of experience in <b>Data Science</b>. Be it in-depth
+                    analysis of complex datasets or development of intuitive
+                    visualizations, I believe in delivering high-quality,
+                    impact-oriented solutions that ensure informed decisions are
+                    made.
                   </p>
                 </div>
 
@@ -139,13 +139,14 @@ const HomePage = () => {
 
                 <WorkExperience
                   date="Jan 2023 – To Date"
-                  title="SENIOR FLUTTER MOBILE APPS DEVELOPER"
-                  company="Spraxa Solutions Pvt Ltd"
+                  title="MACHINE LEARNING PREDICTIVE MODELLING"
+                  company="Young Future Data Firm (YFD)"
                   details={[
-                    "Led and significantly contributed to the successful completion of a crucial project, showcasing leadership, problem-solving, and collaboration skills",
-                    "Spearheaded the migration of a native app to Flutter, introducing cross-platform efficiency and maintaining a consistent user experience.",
-                    "Conducted thorough code reviews to ensure adherence to coding standards and took charge of ongoing maintenance for optimal application performance.",
-                    "// This is mock data",
+                    "Handled one-time contracts with numerous organizations in the analysis for material mixture optimization to achieve maximum profitability.",
+                    "Used statistical models and machine learning algorithms to pinpoint compositions that work best, improving production efficiency and savings.",
+                    "Worked remotely as a Junior Data Scientist and managed preprocessing and modeling of large datasets to ensure data integrity and accuracy for various analytical projects.",
+                    "Built and deployed predictive models using machine learning techniques that were very instrumental to strategic decisions.",
+                    "Currently working with a team of analysts to create Young Future data firm.",
                   ]}
                 />
 
@@ -156,7 +157,7 @@ const HomePage = () => {
 
                 <WorkExperience
                   date="Jan 2021 – Dec 2024"
-                  title="BACHELOR'S DEGREE, MATHEMATICS & STATISTICS"
+                  title="BACHELOR'S DEGREE, APPLIED STATISTICS & COMPUTING"
                   company="Moi University - Eldoret, Kenya"
                 />
               </motion.div>
@@ -192,7 +193,7 @@ const HomePage = () => {
                   <div className="my-12 text-center ">
                     <a
                       href={"#"}
-                      className="px-8 py-3 rounded-full font-bold bg-[#76c7c0] text-black "
+                      className="px-8 py-3 rounded-full font-bold bg-[#172e2c] text-gray-300 "
                     >
                       Schedule a Call
                     </a>
@@ -237,7 +238,7 @@ const HomePage = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="https://linkedin.com/in/churchil-omondi-691992217">
                         <FaLinkedin size={24} />
                       </a>
                     </li>
@@ -247,7 +248,7 @@ const HomePage = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="https://github.com/CHURCHIL9/">
                         <FaSquareGithub size={24} />
                       </a>
                     </li>
@@ -264,7 +265,7 @@ const HomePage = () => {
 
             <div className="lg:bg-white border-t lg:bg-opacity-60 p-1 mt-2 rounded">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15914.630222684098!2d39.554922611045896!3d-4.28656423099751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x184045f950371c63%3A0xdd0680f05b13c443!2sUkunda!5e0!3m2!1sen!2ske!4v1723493496830!5m2!1sen!2ske"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d510564.65107951575!2d36.51774739038859!3d-1.303187387826437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1172d84d49a7%3A0xf7cf0254b297924c!2sNairobi!5e0!3m2!1sen!2ske!4v1723575824241!5m2!1sen!2ske"
                 // width="full"
                 height="450"
                 style={{ border: 0, width: "100%" }}
@@ -275,7 +276,7 @@ const HomePage = () => {
             </div>
 
             {show && (
-              <div className="fixed bottom-3 right-2 bg-green-800 bg-opacity-40 rounded-full overflow-hidden">
+              <div className="fixed bottom-3 right-2 bg-[#172e2c] bg-opacity-40 rounded-full overflow-hidden">
                 <button
                   className="p-3 "
                   onClick={() => {

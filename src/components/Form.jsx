@@ -12,10 +12,14 @@ const Form = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     // const newInput = JSON.stringify(inputs, null, 2);
-
+    
     const { username, email, subject, message } = inputs;
+    if(!username ||!email ||!subject ||!message) {
+      alert("Please fill all required fields");
+      return;
+    }
 
-    const mailtoLink = `mailto:your-email@example.com?subject=${encodeURIComponent(
+    const mailtoLink = `mailto:omondichurchil1999@gmail.com?subject=${encodeURIComponent(
       subject
     )}&body=${encodeURIComponent(
       `Name: ${username}\nEmail: ${email}\n\nMessage:\n${message}`
@@ -72,7 +76,7 @@ const Form = () => {
 
       <button
         type="submit"
-        className="flex bg-teal-700 bg-opacity-40 w-fit py-2 px-4 rounded-full font-semibold"
+        className="flex bg-[#172e2c] bg-opacity-40 w-fit py-2 px-4 rounded-full font-semibold"
       >
         Submit
       </button>
