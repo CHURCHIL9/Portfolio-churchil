@@ -147,7 +147,7 @@ const HomePage = () => {
                     "Worked remotely as a Junior Data Scientist and managed preprocessing and modeling of large datasets to ensure data integrity and accuracy for various analytical projects.",
                     "Built and deployed predictive models using machine learning techniques that were very instrumental to strategic decisions.",
                     "Currently working with a team of analysts to create Young Future data firm.",
-                    "We will be online soon"
+                    "We will be online soon",
                   ]}
                 />
 
@@ -185,10 +185,10 @@ const HomePage = () => {
 
                 <div className="text-center">
                   <p className="text-xl text-gray-600 tracking-wide">
-                    Whether the app development has just begun or the
-                    development has reached a certain milestone, I can
-                    effectively join your side within short period of time. Get
-                    in touch with me & lets discuss your project.
+                    Whether the project has just begun or it has reached a
+                    certain milestone, I can effectively join the team within
+                    short period of time. Get in touch with me and lets
+                    discuss your project.
                   </p>
 
                   <div className="my-12 text-center ">

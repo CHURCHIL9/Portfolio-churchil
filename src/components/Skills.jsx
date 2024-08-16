@@ -48,7 +48,7 @@ const Skills = () => {
           <ul className="space-y-3 col-span-2">
             <li>Churchil Omondi</li>
             <li>March 1999</li>
-            <li>Mombasa, Kenya</li>
+            <li>Nairobi, Kenya</li>
             <li>churchilradonji@gmail.com</li>
             <li>+254 115053375</li>
           </ul>
