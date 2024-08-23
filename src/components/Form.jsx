@@ -19,7 +19,7 @@ const Form = () => {
       return;
     }
 
-    const mailtoLink = `mailto:omondichurchil1999@gmail.com?subject=${encodeURIComponent(
+    const mailtoLink = `mailto:churchilradonji@gmail.com?subject=${encodeURIComponent(
       subject
     )}&body=${encodeURIComponent(
       `Name: ${username}\nEmail: ${email}\n\nMessage:\n${message}`
